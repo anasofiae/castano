@@ -40,7 +40,7 @@ header {
 }
 
 nav {
-    margin: 5px 60px !important;
+    margin: 5px !important;
 }
 
 nav a img {
@@ -107,6 +107,7 @@ h1 {
 /* frase*/
 #contenedor-frase {
     height: 60vh;
+    width: 100%;
     text-align: center;
     color: white;
     background: url(img/montevido.jpg) no-repeat center;
@@ -117,7 +118,7 @@ h1 {
 }
 
 h2 {
-    font-size: calc(2rem + .9vw)!important;
+    font-size: calc(1.5rem + .9vw)!important;
     font-weight: bold;
 }
 
