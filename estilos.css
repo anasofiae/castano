@@ -101,7 +101,7 @@ h1 {
 /* frase*/
 #contenedor-frase {
     height: 60vh;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     color: white;
     background: url(img/montevido.jpg) no-repeat center;
