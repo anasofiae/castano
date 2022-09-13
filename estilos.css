@@ -17,8 +17,7 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: white !important;
+    text-decoration: none!important;
 }
 
 li {
@@ -41,6 +40,9 @@ header {
 
 nav {
     margin: 5px !important;
+}
+nav a{
+    color: white !important;
 }
 
 nav a img {
@@ -79,8 +81,8 @@ h1 {
 .contenido-principal {
     vertical-align: text-bottom;
     position: absolute;
-    bottom: 160px;
-    left: 100px;
+    bottom: 25vh;
+    left: 8vw;
 }
 
 /* Sobre*/
@@ -205,6 +207,7 @@ footer li {
 }
 
 footer a {
+    color: white !important;
     text-decoration: none;
 }
 
