@@ -215,3 +215,19 @@ footer img {
     width: 90%;
     margin-bottom: 10px;
 }
+
+/*págins exito*/
+
+#exito{
+    width: 100%;
+    height: 100vh;
+    background-color: #212121;
+}
+
+#exito h3, p{
+    color:#F2F2F2;
+}
+
+#exito img{
+    width: 20%;
+}
