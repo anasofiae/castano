@@ -6,15 +6,17 @@ $telefono = $_POST['telefono'];
 $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
-$header .= "Content-Type: text/plain";
+$header = "Content-Type: text/plain";
 
-$mensaje = "Este mensaje fue envíado por: " . $nombre . ",\r\n";
+$mensaje = "Este mensaje fue envíado por: " . $nombre . "\r\n";
 $mensaje .= "El nombre del edificio es: " . $edificio . "\r\n";
 $mensaje .= "Su email es: " . $mail . "\r\n";
 $mensaje .= "Su teléfono es: " . $telefono . "\r\n";
 $mensaje .= "El asunto es: " . $asunto . "\r\n";
 $mensaje .= "Mensaje de consulta: " . $_POST['mensaje'] . "\r\n";
 $mensaje .= "Envíado el " . date('d/m/Y', time());
+
+$message = wordwrap($message, 70, "\r\n");
 
 $para = 'info@castano.com.uy';
 $asunto = 'Consulta desde mi sitio web';
